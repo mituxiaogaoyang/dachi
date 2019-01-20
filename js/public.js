@@ -1,0 +1,16 @@
+$('#case_anchor').hover(
+    function(){
+        $('#case_down').slideDown()
+    },
+    function(){
+        $('#case_down').slideUp()
+    }
+)
+$('#case_down').hover(
+    function(){
+        $('#case_down').slideDown()
+    },
+    function(){
+        $('#case_down').slideUp()
+    }
+)
