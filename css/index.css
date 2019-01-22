@@ -1931,6 +1931,7 @@ img {
   padding-left: 24px;
   color: #F6900D;
   margin-left: 36px;
+  background-size: 18px auto;
   background: url(../images/icon/view.jpg) left center no-repeat;
 }
 .video_core .left .video_list .info .desc {
@@ -2411,7 +2412,7 @@ img {
   margin: 0 auto;
 }
 .team_top .lists .list {
-  width: 200px;
+  width: 230px;
   text-align: center;
 }
 .team_top .lists .list i {
@@ -3108,4 +3109,390 @@ img {
   content: "";
   display: block;
   clear: both;
+}
+.building_banner {
+  position: relative;
+}
+.building_banner .word {
+  font-size: 30px;
+  color: #fff;
+  position: absolute;
+  top: 36px;
+  width: 100%;
+  left: 0;
+  text-align: center;
+}
+.building_box1 {
+  padding: 20px 0 30px;
+  background-color: #f2f2f2;
+}
+.building_box1 .top {
+  display: flex;
+  color: #fff;
+  justify-content: space-between;
+  line-height: 1.6;
+}
+.building_box1 .top .list {
+  width: 185px;
+  position: relative;
+}
+.building_box1 .top .list .mask {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.building_box1 .top .list .mask .word {
+  text-align: center;
+  line-height: 160px;
+}
+.building_box1 .top .list .mask .hid {
+  display: none;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  padding: 14px 8px;
+  box-sizing: border-box;
+}
+.building_box1 .top .list .mask .hid .head {
+  color: #F6900D;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #E6E6E6;
+}
+.building_box1 .top .list .mask .hid .desc {
+  font-size: 13px;
+  margin-top: 12px;
+}
+.building_box1 .top .list:hover .word {
+  display: none;
+}
+.building_box1 .top .list:hover .hid {
+  display: block;
+}
+.building_box1 .bot {
+  margin-top: 12px;
+  color: #fff;
+}
+.building_box1 .bot .left {
+  width: 720px;
+  position: relative;
+}
+.building_box1 .bot .left .mask {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.building_box1 .bot .left .mask .word {
+  text-align: center;
+  line-height: 160px;
+}
+.building_box1 .bot .right {
+  width: 468px;
+  position: relative;
+}
+.building_box1 .bot .right .mask {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.building_box1 .bot .right .mask .word {
+  padding: 16px 12px;
+}
+.building_box1 .bot:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.building_box2 {
+  padding-bottom: 12px;
+}
+.building_box2 .first_top {
+  position: relative;
+}
+.building_box2 .first_top .img {
+  width: 720px;
+  position: relative;
+}
+.building_box2 .first_top .img .btn_play {
+  width: 70px;
+  height: 70px;
+  background: url("../images/icon/play.png") no-repeat;
+  background-size: contain;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -35px;
+  margin-top: -35px;
+}
+.building_box2 .first_top .words {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 460px;
+}
+.building_box2 .first_top .words .desc {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  background-color: #fff;
+  padding: 30px 12px 8px;
+  color: #666;
+  font-size: 12px;
+}
+.building_box2 .first_top .words .desc .title {
+  text-align: center;
+  font-size: 20px;
+  color: #F6900D;
+  margin-bottom: 12px;
+}
+.building_box2 .first_top .words .desc .content {
+  text-indent: 2em;
+  line-height: 1.6;
+}
+.building_box2 .car {
+  position: relative;
+}
+.building_box2 .car .swiper-container3 {
+  width: 100%;
+  height: 100%;
+  margin: 20px 0;
+  overflow: hidden;
+}
+.building_box2 .car .swiper-slide .name {
+  text-align: center;
+  width: 280px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-top: 10px ;
+  color: #666;
+}
+.building_box2 .car .swiper-button-prev,
+.building_box2 .car .swiper-button-next {
+  width: 26px;
+  height: 40px;
+  margin-top: -20px;
+  opacity: 0.8;
+  transition: opacity 0.3s;
+}
+.building_box2 .car .swiper-button-prev:hover,
+.building_box2 .car .swiper-button-next:hover {
+  opacity: 1;
+}
+.building_box2 .car .swiper-button-prev {
+  background: rgba(0, 0, 0, 0.1) url('../images/icon/left2.png') center no-repeat;
+  background-size: 60%;
+  left: -36px;
+}
+.building_box2 .car .swiper-button-next {
+  background: rgba(0, 0, 0, 0.1) url('../images/icon/right2.png') center no-repeat;
+  background-size: 60%;
+  right: -36px;
+}
+.tips .tips_box1 {
+  margin: 24px 0;
+  background-color: #fff;
+}
+.tips .tips_box1 .anchor_box {
+  float: left;
+  width: 100px;
+  background-color: #e6e6e6;
+  font-size: 16px;
+}
+.tips .tips_box1 .anchor_box .list {
+  cursor: pointer;
+  padding: 0 8px;
+  height: 92px;
+  text-align: center;
+}
+.tips .tips_box1 .anchor_box .list .word {
+  line-height: 90px;
+  border-bottom: 1px solid #F6900D;
+}
+.tips .tips_box1 .anchor_box .list.on {
+  background-color: #F6900D;
+  color: #fff;
+}
+.tips .tips_box1 .anchor_box .list:last-child .word {
+  border-bottom: none;
+}
+.tips .tips_box1 .match_box {
+  float: right;
+  width: 800px;
+}
+.tips .tips_box1 .match_box .list {
+  display: none;
+}
+.tips .tips_box1 .match_box .list .item {
+  width: 400px;
+  float: left;
+  padding: 6px 0;
+}
+.tips .tips_box1 .match_box .list .item .img {
+  width: 120px;
+  float: left;
+}
+.tips .tips_box1 .match_box .list .item .info {
+  width: 280px;
+  float: left;
+  padding: 0 15px;
+  box-sizing: border-box;
+  font-size: 12px;
+}
+.tips .tips_box1 .match_box .list .item .info .head {
+  font-size: 15px;
+}
+.tips .tips_box1 .match_box .list .item .info .words {
+  color: #666;
+  margin: 6px 0;
+}
+.tips .tips_box1 .match_box .list .item .info .view_more {
+  float: right;
+  color: #F6900D;
+}
+.tips .tips_box1 .match_box .list .item .info:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.tips .tips_box1 .match_box .list .item:after {
+  content: "";
+  display: block;
+  clear: left;
+}
+.tips .tips_box1 .match_box .list:after {
+  content: "";
+  display: block;
+  clear: left;
+}
+.tips .tips_box1 .match_box .list.on {
+  display: block;
+}
+.tips .tips_box1:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.tips_detail {
+  background-color: #fff;
+  padding: 25px 30px;
+}
+.tips_detail .title {
+  font-size: 20px;
+  text-align: center;
+}
+.tips_detail .title_bot {
+  font-size: 13px;
+  color: #666;
+  padding: 2px;
+  text-align: center;
+  margin: 8px 0 14px;
+}
+.tips_detail .detail {
+  font-size: 14px;
+  padding-top: 6px;
+  border-top: 1px solid #F6900D;
+  color: #666;
+}
+.tips_detail .detail p {
+  text-indent: 2em;
+}
+.about_box1 {
+  background-color: #f2f2f2;
+  padding-bottom: 24px;
+}
+.about_box1 .intro {
+  background-color: #fff;
+  padding: 20px 30px;
+}
+.about_box1 .intro .words {
+  float: left;
+  width: 580px;
+}
+.about_box1 .intro .words .title {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 9px;
+}
+.about_box1 .intro .words .desc {
+  font-size: 13px;
+  line-height: 1.6;
+}
+.about_box1 .intro .words .desc p {
+  text-indent: 2em;
+}
+.about_box1 .intro .imgs {
+  float: right;
+  width: 530px;
+}
+.about_box1 .intro .imgs .img {
+  float: left;
+  width: 50%;
+}
+.about_box1 .intro .imgs:after {
+  content: '';
+  display: block;
+  clear: left;
+}
+.about_box1 .intro:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.about_box1 .reject {
+  padding-top: 24px;
+}
+.about_box1 .reject .title {
+  font-size: 20px;
+  text-align: center;
+}
+.about_box1 .reject .lists {
+  display: flex;
+  justify-content: space-between;
+  margin: 12px 0;
+}
+.about_box1 .reject .lists .list {
+  width: 370px;
+}
+.about_box1 .reject .lists .list .img {
+  position: relative;
+}
+.about_box1 .reject .lists .list .img .mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.about_box1 .reject .lists .list .img .mask .word {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  color: #fff;
+  font-size: 28px;
+  margin-left: -40px;
+  margin-top: -40px;
+  text-align: center;
+  line-height: 80px;
+}
+.about_box1 .reject .lists .list .desc {
+  background-color: #fff;
+  line-height: 2.4;
+  text-align: center;
 }
