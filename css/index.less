@@ -2,6 +2,7 @@ body{
   margin:0;
   font-family: '微软雅黑';
   font-size: 16px;
+	color:#111;
 }
 ul,li{
   margin:0;
@@ -1387,7 +1388,88 @@ img{display: block;width:100%}
 				}
 			}
 			.right{
-				width:540px;
+				width:560px;
+				box-sizing: border-box;
+				padding:10px 24px;
+				background: #ccc;
+				.title{margin:12px 0;text-align: center;}
+				.title_bot{
+					text-align: center;
+					font-size: 12px;
+					span{display: inline-block;margin:0 12px}
+				}
+				.car{
+					position: relative;
+					.swiper-container3 {
+						width: 100%;
+						height: 100%;
+						margin: 20px 0;
+						overflow: hidden;
+					}
+					.swiper-slide{
+						.name{
+							text-align: center;
+							width:280px;
+							white-space: nowrap;
+							overflow: hidden;
+							text-overflow: ellipsis;
+							margin-top:10px ;
+							color:#666;
+							font-size: 12px;
+						}
+					}
+					.swiper-button-prev,.swiper-button-next{
+						width:26px;
+						height:40px;
+						margin-top:-20px;
+						opacity: .8;
+						transition: opacity .3s;
+						&:hover{opacity: 1;}
+					}
+					.swiper-button-prev{
+						background:rgba(0,0,0,.1) url('../images/icon/left2.png') center no-repeat;
+						background-size: 60%;
+						left:-30px;
+					}
+					.swiper-button-next{
+						background:rgba(0,0,0,.1) url('../images/icon/right2.png') center no-repeat;
+						background-size: 60%;
+						right:-30px;
+					}
+				}
+				.product{
+					margin:6px 0;
+					.desc{text-indent: 2em;line-height: 1.6;font-size: 13px;}
+					.view_detail{float:right;color:#F6900D;font-size: 13px;}
+					&:after{
+						content:"";
+						display: block;
+						clear:right
+					}
+				}
+				.designer{
+					.avatar{width:42px;margin-right:18px}
+					.btn_box{
+						font-size: 16px;
+						margin-top:16px;
+						a{
+							padding:2px 3px;
+							margin-right:18px;
+							border:1px solid #F6900D;
+							color:#F6900D;
+							border-radius: 4px;
+							&:last-child{
+								color:#fff;
+								background-color: #F6900D;
+							}
+							&:hover{
+								color:#fff;
+								background-color: #F6900D;
+							}
+						}
+					}
+					
+				}
 			}
 	}
 	.gallery-thumbs {
@@ -1823,6 +1905,10 @@ img{display: block;width:100%}
 							border:1px solid #F6900D;
 							color:#F6900D;
 							border-radius: 4px;
+							&:last-child{
+								color:#fff;
+								background-color: #F6900D;
+							}
 							&:hover{
 								color:#fff;
 								background-color: #F6900D;
@@ -1923,6 +2009,10 @@ img{display: block;width:100%}
 						border:1px solid #F6900D;
 						color:#F6900D;
 						border-radius: 4px;
+						&:last-child{
+							color:#fff;
+							background-color: #F6900D;
+						}
 						&:hover{
 							color:#fff;
 							background-color: #F6900D;
@@ -2458,6 +2548,10 @@ img{display: block;width:100%}
 							border:1px solid #F6900D;
 							color:#F6900D;
 							border-radius: 4px;
+							&:last-child{
+								color:#fff;
+								background-color: #F6900D;
+							}
 							&:hover{
 								color:#fff;
 								background-color: #F6900D;
@@ -3053,6 +3147,10 @@ img{display: block;width:100%}
 						border:1px solid #F6900D;
 						color:#F6900D;
 						border-radius: 4px;
+						&:last-child{
+							color:#fff;
+							background-color: #F6900D;
+						}
 						&:hover{
 							color:#fff;
 							background-color: #F6900D;
@@ -3456,6 +3554,173 @@ img{display: block;width:100%}
     }
   }
 
+}
+.about_box2{
+	position: relative;
+	.top{
+		position: absolute;
+		left:0;
+		width:100%;
+		top:0;
+		height:100%;
+		background-color: rgba(0,0,0,.1);
+		color:#fff;
+		.title{
+			color:#000;
+			font-size: 20px;
+			margin:24px 0;
+			text-align: center;
+		}
+		.boxs{
+			width:900px;
+			margin:0 auto;
+		}
+		.first{
+			
+		}
+		.second{
+			position:relative;
+			top:-30px;
+			left:95px;
+		}
+		.list{
+			float:left;
+			width:190px;
+			margin-right:15px;
+			&:last-child{
+				margin-right: 0;
+			}
+		}
+	}
+}
+.super_banner{
+	position: relative;
+	.box{
+		position: absolute;
+		top:50%;
+		width:700px;
+		padding:30px 18px;
+		background-color: rgba(0,0,0,.5);
+		color:#fff;
+		margin-top:-60px;
+		left:50%;
+		margin-left:-380px;
+		border-radius:6px;
+		text-align:center;
+		.words{
+			font-size: 20px;
+		}
+		.eg{
+			font-size: 14px;
+			margin-top:12px;
+		}
+	}
+}
+.super_box1{
+	background: #fff;
+	padding:27px 0;
+	.title{
+		font-size: 20px;
+		text-align: center;
+	}
+	.imgs{
+		display: flex;
+		justify-content: space-between;
+		margin:18px 0;
+		.list{
+			width:320px;
+		}
+	}
+	.M-box1{
+		font-size: 14px;
+		text-align: center;
+		a{
+			width:22px;
+			height:22px;
+			display: inline-block;
+			border-radius: 2px;
+			color:#F6900D;
+			border:1px solid #F6900D;
+			line-height: 20px;
+			margin:5px;
+		}
+		span{
+			width:22px;
+			height:22px;
+			display: inline-block;
+			border-radius: 2px;
+			color:#F6900D;
+			border:1px solid #F6900D;
+			line-height: 20px;
+			margin:5px;
+		}
+		span.active{
+			border-color:#ccc;
+			color:#ccc;
+		}
+	}
+}
+.super_box2{
+	background: #f2f2f2;
+	padding:27px 0;
+	.title{
+		font-size: 20px;
+		text-align: center;
+	}
+	.box{
+		margin:15px 0;
+		.left{width:360px}
+		.right{width:825px}
+	}
+	.box2{
+		background: #fff;
+		padding:15px 0;
+		margin:18px auto;
+		.title{
+			font-size: 20px;
+			text-align: center;
+			margin:15px 0;
+		}
+		.left{width:392px}
+		.right{width:392px}
+	}
+}
+.super_box3{
+	background: #fff;
+	padding:27px 0;
+	.title{
+		font-size: 20px;
+		text-align: center;
+	}
+	.lists{
+		margin:12px auto;
+		width:1200px;
+		display: flex;
+		justify-content: space-between;
+		.list{
+			width:300px;
+		}
+	}
+	.btn_box{
+		font-size: 20px;
+		margin:16px 0;
+		text-align: center;
+		a{
+			padding:2px 3px;
+			margin:0 12px;
+			border:1px solid #F6900D;
+			color:#F6900D;
+			border-radius: 4px;
+			&:last-child{
+				color:#fff;
+				background-color: #F6900D;
+			}
+			&:hover{
+				color:#fff;
+				background-color: #F6900D;
+			}
+		}
+	}
 }
 //16px:12px; 18px:13px;20px:14px;24px:16px;30px:20px;36px:28px;48px:30px;
 //lessc index.less index.css
